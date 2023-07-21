@@ -1,0 +1,11 @@
+name: pysnowpark
+channels:
+  - https://repo.anaconda.com/pkgs/snowflake
+  - nodefaults
+dependencies:
+  - python=3.8
+  - snowflake-snowpark-python
+  - pip
+  - pip:
+    # Snowflake
+    - snowflake-cli-labs
